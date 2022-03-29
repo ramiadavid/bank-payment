@@ -1,18 +1,15 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * account_banking_pain_base
+# 	* account_banking_pain_base
 #
-# Translators:
-# OCA Transbot <transbot@odoo-community.org>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-11 09:50+0000\n"
-"PO-Revision-Date: 2021-04-23 18:47+0000\n"
-"Last-Translator: Bosd <c5e2fd43-d292-4c90-9d1f-74ff3436329a@anonaddy.me>\n"
-"Language-Team: Dutch (https://www.transifex.com/oca/teams/23907/nl/)\n"
-"Language: nl\n"
+"PO-Revision-Date: 2022-05-30 18:05+0000\n"
+"Last-Translator: jabelchi <jabelchi@gmail.com>\n"
+"Language-Team: none\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -25,35 +22,33 @@ msgid ""
 "A payment method of the same type already exists with this code and PAIN "
 "version"
 msgstr ""
-"Een betaalmethode van hetzelfde type bestaat reeds met deze code en PAIN "
-"versie"
+"Ja existeix un mètode de pagament del mateix tipus amb aquest codi i versió "
+"PAIN"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__acct
 msgid "Account Management"
-msgstr "Rekeningbeheer"
+msgstr "Gestió comptable"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__adva
-#, fuzzy
 msgid "Advance Payment"
-msgstr "SEPA betaling"
+msgstr "Pagament avançat"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__agrt
 msgid "Agricultural Transfer"
-msgstr ""
+msgstr "Transferència agrària"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__airb
 msgid "Air"
-msgstr "Lucht"
+msgstr "Aire"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__almy
-#, fuzzy
 msgid "Alimony Payment"
-msgstr "SEPA betaling"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__ants
@@ -63,69 +58,68 @@ msgstr ""
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__anni
 msgid "Annuity"
-msgstr "Annuiteiten"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model,name:account_banking_pain_base.model_res_bank
 msgid "Bank"
-msgstr "Bank"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model,name:account_banking_pain_base.model_bank_payment_line
 msgid "Bank Payment Lines"
-msgstr "Bank betaalregels"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields,field_description:account_banking_pain_base.field_account_payment_order__batch_booking
 msgid "Batch Booking"
-msgstr "Batch verwerking"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__category_purpose__bonu
 msgid "Bonus Payment"
-msgstr "Bonus betaling"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__bonu
-#, fuzzy
 msgid "Bonus Payment."
-msgstr "Bank betaalregels"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_order__charge_bearer__cred
 msgid "Borne by Creditor"
-msgstr "Ten laste van de Crediteur"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_order__charge_bearer__debt
 msgid "Borne by Debtor"
-msgstr "Ten laste van de Debiteur"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__busb
 msgid "Bus"
-msgstr "Bus"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__bexp
 msgid "Business Expenses"
-msgstr "Bedrijfsuitgaven"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__cbtv
 msgid "Cable TV Bill"
-msgstr "Kabel maatschapij rekening"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__cfee
 msgid "Cancellation Fee"
-msgstr "Annukerings boete"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: code:addons/account_banking_pain_base/models/account_payment_order.py:0
-#, fuzzy, python-format
+#, python-format
 msgid "Cannot compute the field '{field_name}'."
-msgstr "Kan de '%s' niet berekenen."
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__clpr
@@ -147,12 +141,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_banking_pain_base.field_account_payment_line__category_purpose
 #: model:ir.model.fields,field_description:account_banking_pain_base.field_bank_payment_line__category_purpose
 msgid "Category Purpose"
-msgstr "Doel categorie"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields,field_description:account_banking_pain_base.field_account_payment_order__charge_bearer
 msgid "Charge Bearer"
-msgstr "Kostendrager"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__char
@@ -177,7 +171,7 @@ msgstr ""
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__comm
 msgid "Commission"
-msgstr "Comissie"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__cmdt
@@ -197,7 +191,7 @@ msgstr ""
 #. module: account_banking_pain_base
 #: model:ir.model,name:account_banking_pain_base.model_res_company
 msgid "Companies"
-msgstr "Bedrijven"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model,name:account_banking_pain_base.model_res_config_settings
@@ -217,7 +211,7 @@ msgstr ""
 #. module: account_banking_pain_base
 #: model:ir.model.fields,field_description:account_banking_pain_base.field_account_payment_method__convert_to_ascii
 msgid "Convert to ASCII"
-msgstr "Converteer naar ASCII"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__cpyr
@@ -227,12 +221,12 @@ msgstr ""
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__cost
 msgid "Costs"
-msgstr "Kosten"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__category_purpose__ccrd
 msgid "Credit Card Payment"
-msgstr "Credit Card betaling"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__ccrd
@@ -273,7 +267,7 @@ msgstr ""
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__category_purpose__dvpm
 msgid "Deliver Against Payment"
-msgstr "Bezorgen tegen betaling"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__dnts
@@ -283,13 +277,13 @@ msgstr ""
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__deri
 msgid "Derivatives"
-msgstr "Derivaten"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__category_purpose__divi
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__divd
 msgid "Dividend"
-msgstr "Dividend"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__dmeq
@@ -321,7 +315,7 @@ msgstr ""
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__category_purpose__fcol
 msgid "Fee Collection"
-msgstr "Transactiekosten"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__ferb
@@ -331,26 +325,19 @@ msgstr ""
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_order__charge_bearer__slev
 msgid "Following Service Level"
-msgstr "Volgens Service Level"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields,help:account_banking_pain_base.field_account_payment_order__charge_bearer
 msgid ""
 "Following service level : transaction charges are to be applied following "
-"the rules agreed in the service level and/or scheme (SEPA Core messages must "
-"use this). Shared : transaction charges on the debtor side are to be borne "
+"the rules agreed in the service level and/or scheme (SEPA Core messages must"
+" use this). Shared : transaction charges on the debtor side are to be borne "
 "by the debtor, transaction charges on the creditor side are to be borne by "
-"the creditor. Borne by creditor : all transaction charges are to be borne by "
-"the creditor. Borne by debtor : all transaction charges are to be borne by "
+"the creditor. Borne by creditor : all transaction charges are to be borne by"
+" the creditor. Borne by debtor : all transaction charges are to be borne by "
 "the debtor."
 msgstr ""
-"Volgens Service Level: transactiekosten worden toegepast volgens de regels "
-"vastgelegd in het service level en/of schema (SEPA Core berichten gebruiken "
-"dit). Gedeeld: transactiekosten aan de debiteurzijde komen ten laste van de "
-"debiteur, transactiekosten aan crediteurszijde komen ten laste van de "
-"crediteur. Ten laste van de crediteur: alle transactiekosten komen ten laste "
-"van de crediteur. Ten laste van de Debiteur: alle transactiekosten komen ten "
-"laste van de debiteur. "
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__frex
@@ -360,7 +347,7 @@ msgstr ""
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__gasb
 msgid "Gas Bill"
-msgstr "Gas rekening"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__govi
@@ -371,7 +358,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__category_purpose__govt
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__govt
 msgid "Government Payment"
-msgstr "Overheidsbetaling"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__hlti
@@ -382,12 +369,12 @@ msgstr ""
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__category_purpose__hedg
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__hedg
 msgid "Hedging"
-msgstr "Afdekkingsreserve"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__priority__high
 msgid "High"
-msgstr "Hoog"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__hltc
@@ -412,7 +399,7 @@ msgstr ""
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__communication_type__iso
 msgid "ISO"
-msgstr "ISO"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields,help:account_banking_pain_base.field_account_payment_method__convert_to_ascii
@@ -421,9 +408,6 @@ msgid ""
 "unaccented character, so that only ASCII characters are used in the "
 "generated PAIN file."
 msgstr ""
-"Wanneer actief, zal Odoo geaccentueerde karakters omzetten naar het "
-"corresponderende niet geaccentueerde karakter, dit zodat alleen ASCII "
-"gebruikt wordt in de gegenereerde PAIN file. "
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields,help:account_banking_pain_base.field_account_payment_line__category_purpose
@@ -434,8 +418,6 @@ msgid ""
 "If neither your bank nor your local regulations oblige you to set the "
 "category purpose, leave the field empty."
 msgstr ""
-"Als noch uw bank, noch uw lokale regelgeving u verplicht het doel van de "
-"categorie in te stellen, laat dan dit veld leeg."
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields,help:account_banking_pain_base.field_account_payment_order__batch_booking
@@ -444,9 +426,6 @@ msgid ""
 "wire transfers of the SEPA XML file ; if false, the bank statement will "
 "display one debit line per wire transfer of the SEPA XML file."
 msgstr ""
-"Wanneer waar, zal het bankafschrift één debit lijn bevatten voor alle "
-"overschrijvingen in het SEPA bestand; wanneer onwaar, zal het bankafschrift "
-"een debit lijn per overschrijving bevatten in het SEPA bestand. "
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__intx
@@ -458,27 +437,26 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_banking_pain_base.field_res_company__initiating_party_identifier
 #: model:ir.model.fields,field_description:account_banking_pain_base.field_res_config_settings__initiating_party_identifier
 msgid "Initiating Party Identifier"
-msgstr "Initiating Party Identifier"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields,field_description:account_banking_pain_base.field_account_payment_mode__initiating_party_issuer
 #: model:ir.model.fields,field_description:account_banking_pain_base.field_res_company__initiating_party_issuer
 #: model:ir.model.fields,field_description:account_banking_pain_base.field_res_config_settings__initiating_party_issuer
 msgid "Initiating Party Issuer"
-msgstr "Initiating Party Issuer"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields,field_description:account_banking_pain_base.field_account_payment_mode__initiating_party_scheme
 #: model:ir.model.fields,field_description:account_banking_pain_base.field_res_company__initiating_party_scheme
 #: model:ir.model.fields,field_description:account_banking_pain_base.field_res_config_settings__initiating_party_scheme
-#, fuzzy
 msgid "Initiating Party Scheme"
-msgstr "Initiating Party Issuer"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__insm
 msgid "Installment"
-msgstr "aanbetaling"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__ihrp
@@ -494,7 +472,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__category_purpose__inte
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__inte
 msgid "Interest"
-msgstr "Rente"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__icrf
@@ -509,17 +487,17 @@ msgstr ""
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__category_purpose__intc
 msgid "Intra-Company Payment"
-msgstr "Betaling binnen de onderneming"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__category_purpose__iccp
 msgid "Irrevocable Credit Card Payment"
-msgstr "Onherroepelijke creditcardbetaling"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__category_purpose__idcp
 msgid "Irrevocable Debit Card Payment"
-msgstr "Onherroepelijke debetkaartbetaling"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields,help:account_banking_pain_base.field_account_payment_line__communication
@@ -550,7 +528,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__category_purpose__loan
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__loan
 msgid "Loan"
-msgstr "Lening"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__loar
@@ -561,7 +539,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_banking_pain_base.field_account_payment_line__local_instrument
 #: model:ir.model.fields,field_description:account_banking_pain_base.field_bank_payment_line__local_instrument
 msgid "Local Instrument"
-msgstr "Lokaal Instrument"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__ltcf
@@ -580,8 +558,6 @@ msgid ""
 "Missing 'Initiating Party Issuer' and/or 'Initiating Party Identifier' for "
 "the company '%s'. Both fields must have a value."
 msgstr ""
-"Missende 'Initiating Party Issuer' en/of 'Initiating Party Identifier' voor "
-"het bedrijf  '%s'. Beide velden moet een waarde bevatten."
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__msvc
@@ -591,7 +567,7 @@ msgstr ""
 #. module: account_banking_pain_base
 #: model:ir.model.fields,field_description:account_banking_pain_base.field_res_config_settings__group_pain_multiple_identifier
 msgid "Multiple identifiers"
-msgstr "Meerdere Identificatienummers"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__nett
@@ -612,12 +588,12 @@ msgstr ""
 #: code:addons/account_banking_pain_base/models/account_payment_method.py:0
 #, python-format
 msgid "No XSD file path found for payment method '%s'"
-msgstr "Geen XSD bestandlocatie gevonden voor betaalmethode '%s'."
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__priority__norm
 msgid "Normal"
-msgstr "Normaal"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__nows
@@ -637,7 +613,7 @@ msgstr ""
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__category_purpose__othr
 msgid "Other Payment"
-msgstr "Overige betaling"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__otlc
@@ -647,7 +623,7 @@ msgstr ""
 #. module: account_banking_pain_base
 #: model:ir.model.fields,field_description:account_banking_pain_base.field_account_payment_method__pain_version
 msgid "PAIN Version"
-msgstr "PAIN Versie"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: code:addons/account_banking_pain_base/models/account_payment_order.py:0
@@ -663,41 +639,40 @@ msgstr ""
 
 #. module: account_banking_pain_base
 #: code:addons/account_banking_pain_base/models/account_payment_order.py:0
-#, fuzzy, python-format
+#, python-format
 msgid "Payment Line has reference '%s'."
-msgstr "Betaalregel met referentie '%s'."
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model,name:account_banking_pain_base.model_account_payment_line
 msgid "Payment Lines"
-msgstr "Betaalregels"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model,name:account_banking_pain_base.model_account_payment_method
 msgid "Payment Methods"
-msgstr "Betaalwijzes"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model,name:account_banking_pain_base.model_account_payment_mode
 msgid "Payment Modes"
-msgstr "Betaalwijze"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model,name:account_banking_pain_base.model_account_payment_order
 msgid "Payment Order"
-msgstr "Betalingsopdracht"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__ptsp
-#, fuzzy
 msgid "Payment Terms"
-msgstr "Betaalregels"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__category_purpose__pens
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__pens
 msgid "Pension Payment"
-msgstr "Pensioen betaling"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__padd
@@ -711,15 +686,14 @@ msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__prcp
-#, fuzzy
 msgid "Price Payment"
-msgstr "SEPA betaling"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields,field_description:account_banking_pain_base.field_account_payment_line__priority
 #: model:ir.model.fields,field_description:account_banking_pain_base.field_bank_payment_line__priority
 msgid "Priority"
-msgstr "Prioriteit"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__ppti
@@ -755,7 +729,7 @@ msgstr ""
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__category_purpose__rvpm
 msgid "Receive Against Payment"
-msgstr "Ontvang tegen betaling"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__rinp
@@ -775,23 +749,23 @@ msgstr ""
 #. module: account_banking_pain_base
 #: model:ir.model.fields,field_description:account_banking_pain_base.field_account_payment_order__sepa
 msgid "SEPA Payment"
-msgstr "SEPA betaling"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model_terms:ir.ui.view,arch_db:account_banking_pain_base.view_account_config_settings
 msgid "SEPA/PAIN"
-msgstr "SEPA/PAIN"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:res.groups,name:account_banking_pain_base.group_pain_multiple_identifier
 msgid "SEPA/PAIN Identifiers on Payment Modes"
-msgstr "SEPA/PAIN Id's op betalingswijzen"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__category_purpose__sala
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__sala
 msgid "Salary Payment"
-msgstr "Salaris betaling"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__savg
@@ -802,18 +776,18 @@ msgstr ""
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__category_purpose__secu
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__secu
 msgid "Securities"
-msgstr "Effecten"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_order__charge_bearer__shar
 msgid "Shared"
-msgstr "Gedeeld"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__category_purpose__ssbe
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__ssbe
 msgid "Social Security Benefit"
-msgstr "Sociale zekerheid voordeel"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__stdy
@@ -829,13 +803,13 @@ msgstr ""
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__category_purpose__supp
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__supp
 msgid "Supplier Payment"
-msgstr "Leverancier betaling"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__category_purpose__taxs
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__taxs
 msgid "Tax Payment"
-msgstr "Belasting betaling"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__phon
@@ -846,7 +820,7 @@ msgstr ""
 #: code:addons/account_banking_pain_base/models/account_payment_order.py:0
 #, python-format
 msgid "The '%s' is empty or 0. It should have a non-null value."
-msgstr "De '%s' is leeg of 0. Deze waarde zou niet nul moeten zijn."
+msgstr ""
 
 #. module: account_banking_pain_base
 #: code:addons/account_banking_pain_base/models/res_bank.py:0
@@ -857,10 +831,6 @@ msgid ""
 "\n"
 "SEPA pattern: {sepa_pattern}"
 msgstr ""
-"De volgende Bank Identifier Codes (BIC) voldoen niet aan het SEPA pattroon:\n"
-"{bic_list}\n"
-"\n"
-"SEPA pattroon: {sepa_pattern}"
 
 #. module: account_banking_pain_base
 #: code:addons/account_banking_pain_base/models/account_payment_order.py:0
@@ -871,25 +841,22 @@ msgid ""
 "the server logs. Here is the error, which may give you an idea on the cause "
 "of the problem : %s"
 msgstr ""
-"Het gegenereerde XML bestand is niet geldig volgens de officiële XML schema "
-"definities. Het gegenereerde XML bestand en de volledige fout zijn "
-"weggeschreven in de server log bestanden. Hier is de fout, wat u een idee "
-"kunt geven over de oorzaak van het probleem: %s\""
 
 #. module: account_banking_pain_base
 #: code:addons/account_banking_pain_base/models/account_payment_order.py:0
 #, python-format
-msgid "The type of the field '%s' is %s. It should be a string or unicode."
-msgstr "Het type van veld '%s' is %s. Dit moet een string of unicode zijn."
+msgid ""
+"The type of the field '%(field)s' is %(value)s. It should be a string or "
+"unicode."
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields,help:account_banking_pain_base.field_account_payment_line__priority
 #: model:ir.model.fields,help:account_banking_pain_base.field_bank_payment_line__priority
 msgid ""
-"This field will be used as 'Instruction Priority' in the generated PAIN file."
+"This field will be used as 'Instruction Priority' in the generated PAIN "
+"file."
 msgstr ""
-"Dit veld wordt gebruikt als 'Instructie Prioriteit' in het gegeneerde PAIN "
-"bestand."
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields,help:account_banking_pain_base.field_res_company__initiating_party_identifier
@@ -898,23 +865,16 @@ msgid ""
 "This will be used as the 'Initiating Party Identifier' in the PAIN files "
 "generated by Odoo."
 msgstr ""
-"Wordt gebruikt als  'Initiating Party Identifier' in de gegenereerde PAIN "
-"bestanden."
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields,help:account_banking_pain_base.field_account_payment_mode__initiating_party_identifier
 msgid ""
-"This will be used as the 'Initiating Party Identifier' in the PAIN files "
-"generated by Odoo. If not defined, Initiating Party Identifier from company "
-"will be used.\n"
+"This will be used as the 'Initiating Party Identifier' in the PAIN files generated by Odoo. If not defined, Initiating Party Identifier from company will be used.\n"
 "Common format (13): \n"
 "- Country code (2, optional)\n"
 "- Company idenfier (N, VAT)\n"
 "- Service suffix (N, issued by bank)"
 msgstr ""
-"Wordt gebruikt als 'Initiating Party Identifier' in de gegenereerde PAIN "
-"bestanden. Wanneer niet ingesteld wordt de Initiating Party Identifier uit "
-"de bedrijfsinstellingen gebruikt."
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields,help:account_banking_pain_base.field_res_company__initiating_party_issuer
@@ -923,38 +883,24 @@ msgid ""
 "This will be used as the 'Initiating Party Issuer' in the PAIN files "
 "generated by Odoo."
 msgstr ""
-"Wordt gebruikt als 'Initiating Party Issuer' in de gegenereerde PAIN "
-"bestanden."
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields,help:account_banking_pain_base.field_account_payment_mode__initiating_party_issuer
 msgid ""
-"This will be used as the 'Initiating Party Issuer' in the PAIN files "
-"generated by Odoo. If not defined, Initiating Party Issuer from company will "
-"be used.\n"
+"This will be used as the 'Initiating Party Issuer' in the PAIN files generated by Odoo. If not defined, Initiating Party Issuer from company will be used.\n"
 "Common format (13): \n"
 "- Country code (2, optional)\n"
 "- Company idenfier (N, VAT)\n"
 "- Service suffix (N, issued by bank)"
 msgstr ""
-"Wordt gebruikt als 'Initiating Party Issuer' in de gegenereerde PAIN "
-"bestanden. Wanneer niet ingesteld wordt de Initiating Party Issuer uit de "
-"bedrijfsinstellingen gebruikt.\n"
-"Standaard formaat(13):\n"
-"- Land Code (2, optioneel)\n"
-"- Bedrijfsidentificatie  (N, BTWnr)\n"
-"- Service achtervoegsel (N, uitgegeven door de bank)"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields,help:account_banking_pain_base.field_res_company__initiating_party_scheme
 #: model:ir.model.fields,help:account_banking_pain_base.field_res_config_settings__initiating_party_scheme
-#, fuzzy
 msgid ""
 "This will be used as the 'Initiating Party Scheme Name' in the PAIN files "
 "generated by Odoo."
 msgstr ""
-"Wordt gebruikt als 'Initiating Party Issuer' in de gegenereerde PAIN "
-"bestanden."
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields,help:account_banking_pain_base.field_account_payment_mode__initiating_party_scheme
@@ -967,7 +913,7 @@ msgstr ""
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__category_purpose__trad
 msgid "Trade"
-msgstr "Handel"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__trad
@@ -977,7 +923,7 @@ msgstr ""
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__category_purpose__cort
 msgid "Trade Settlement Payment"
-msgstr "Verrekening handelsafrekening"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__category_purpose__trea
@@ -998,7 +944,7 @@ msgstr ""
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__category_purpose__vatx
 msgid "VAT Payment"
-msgstr "BTW betaling"
+msgstr ""
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__vatx
@@ -1024,24 +970,3 @@ msgstr ""
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__category_purpose__epay
 msgid "ePayment"
 msgstr ""
-
-#~ msgid "pain.001.001.02"
-#~ msgstr "pain.001.001.02"
-
-#~ msgid "pain.001.001.03 (recommended for credit transfer)"
-#~ msgstr "pain.001.001.03 (aanbevolne voor overboekingen)"
-
-#~ msgid "pain.001.001.04"
-#~ msgstr "pain.001.001.04"
-
-#~ msgid "pain.001.001.05"
-#~ msgstr "pain.001.001.05"
-
-#~ msgid "pain.001.003.03 (credit transfer in Germany)"
-#~ msgstr "pain.001.003.03 (overboekingen in Duitsland)"
-
-#~ msgid "Cannot compute the '%s' of the Payment Line with reference '%s'."
-#~ msgstr "Kan de '%s' niet berekenen van de betaalregel met referentie '%s'."
-
-#~ msgid "Cannot compute the '%s'."
-#~ msgstr "Kan de '%s' niet berekenen."
