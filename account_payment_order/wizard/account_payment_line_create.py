@@ -41,6 +41,7 @@ class AccountPaymentLineCreate(models.TransientModel):
     move_line_ids = fields.Many2many(
         comodel_name="account.move.line", string="Move Lines"
     )
+    move_line_domain = fields.Json()
 
     @api.model
     def default_get(self, field_list):
@@ -83,7 +84,7 @@ class AccountPaymentLineCreate(models.TransientModel):
         if self.date_type == "due":
             domain += [
                 "|",
-                ("date_maturity", "<=", self.due_date),
+                ("date_maturity", "<=", fields.Date.to_string(self.due_date)),
                 ("date_maturity", "=", False),
             ]
         elif self.date_type == "move":
@@ -178,8 +179,7 @@ class AccountPaymentLineCreate(models.TransientModel):
     )
     def move_line_filters_change(self):
         domain = self._prepare_move_line_domain()
-        res = {"domain": {"move_line_ids": domain}}
-        return res
+        self.move_line_domain = domain
 
     def create_payment_lines(self):
         if self.move_line_ids:
